@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+
+    font-family: 'turtles';
+    src: url('../fontes/Turtles.otf') format('opentype')
+}
+
+@font-face {
+
+    font-family: 'bigbum';
+    src: url('../fontes/Bing\ Bam\ Boum.ttf') format('truetype')
+}
+
+@font-face {
+
+    font-family: 'trick';
+    src: url('../fontes/Trick\ or\ Treats.otf') format('opentype')
+}
+
+
+
+
+:root {
+
+    --fonte-google1:
+}
+
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+header {
+
+    /* background-image: url(../backgraound/ROG-wallpaper-8-bit_1920x1080.jpg);
+    background-position: center;
+    background-size: cover; */
+    background-color: lightcyan;
+    width: 100%;
+}
+
+.container-titulo-form {
+
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.container-titulo-form .botoes {
+
+    text-align: end;
+    margin-top: 10px;
+}
+
+
+
