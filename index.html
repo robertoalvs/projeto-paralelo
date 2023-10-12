@@ -11,66 +11,89 @@
 <body>
 
 
-    <header>
+                    <header>
 
-            <div class="titulo-logo">
+                        <div class="titulo-logo">
 
-                <img src="/imagens/logo.png" alt="LOGO-RSA-PC-GAMER">
+                             <img src="/imagens/logo.png" alt="LOGO-RSA-PC-GAMER">
 
-                <h1>RSA PcGamer</h1>
+                                <h1>RSA PcGamer</h1>
 
-                        <span>
+                                    <span>
 
-                            <img src="./icon-redes/icons8-github-32.png" alt="">
-                            <img src="./icon-redes/icons8-instagram-32.png" alt="">
-                            <img src="./icon-redes/icons8-twitch-32.png" alt="">
-                            <img src="./icon-redes/icons8-twitter-32.png" alt="">
-                            <img src="./icon-redes/icons8-youtube-32.png" alt="">
+                                        <img src="./icon-redes/icons8-github-32.png" alt="">
+                                        <img src="./icon-redes/icons8-instagram-32.png" alt="">
+                                        <img src="./icon-redes/icons8-twitch-32.png" alt="">
+                                        <img src="./icon-redes/icons8-twitter-32.png" alt="">
+                                        <img src="./icon-redes/icons8-youtube-32.png" alt="">
 
-                        </span>
+                                    </span>
+                        </div>
 
-    </header>
+                    </header>
 
     
-        <main id="container">
+                            <div id="container">
+                                
+                                    <form class="form-container" action="./cadastro.php" autocomplete="" method="post">
 
-            <form class="form-container" action="./cadastro.php" autocomplete="" method="post">
+                                            <div class="usuario">
+                                                <label for="isuario">Nome: </label>
+                                                <input type="text" name="usuario" id="isuario">
+                                            </div>
 
-                    <div class="usuario">
-                        <label for="isuario">Nome: </label>
-                        <input type="text" name="usuario" id="isuario">
-                    </div>
+                                            <div class="senha">
+                                                <label for="isenha">Senha: </label>
+                                                <input type="password" name="senha" id="isenha">
+                                            </div>
 
-                    <div class="senha">
-                        <label for="isenha">Senha: </label>
-                        <input type="password" name="senha" id="isenha">
-                    </div>
+                                            <div class="botoes">
+                                                <input type="submit" value="Entrar">
+                                                <input type="reset" value="Limpar">
+                                            </div>
 
-                    <div class="botoes">
-                        <input type="submit" value="Entrar">
-                        <input type="reset" value="Limpar">
-                    </div>
+                                    </form>
 
-            </form>
+                                    <div class="container-menu-sociais">
 
-            <div class="container-menu-sociais">
+                                        <menu>
 
-                <menu>
-    
-                    <ul>
-                        <li>Menu</li>
-                        <li>Menu</li>
-                        <li>Menu</li>
-                        <li>Menu</li>
-                    </ul>
-    
-                </menu>
-    
-            </div>
-       
+                                            <ul>
+                                                <li> Menu</li>
+                                                <li> Menu</li>
+                                                <li> Menu</li>
+                                                <li> Menu</li>
+                                            </ul>
 
-        </main>
-        
-        <footer></footer>
+                                        </menu>
+
+                                    </div>
+
+                                    <div class="bottom">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                
+                            </div>
+
+
+
+                            <main class="prncipal-boxes">
+
+                                <div class="box1-box2">
+                                    <div class="main-box1"></div>
+                                    <div class="main-box2"></div>
+                                </div>
+
+                                <div class="box3-box4">
+                                    <div class="main-box3"></div>
+                                    <div class="main-box4"></div>
+                                </div>
+
+                            </main>
+                            
+                                <footer></footer>
 </body>
 </html>
