@@ -113,13 +113,8 @@ header > .titulo-logo > span {
     right: 0;
 }
 
-#container form {
+#container {
 
-    display: flex;
-    flex-direction: row-reverse;
-    align-content: flex-start;
-    align-items: flex-start;
-    justify-content: flex-end;
     width: 80%;
     max-width: 100%;
     margin: 0 auto;
@@ -128,3 +123,32 @@ header > .titulo-logo > span {
     margin-top: 20px;
     padding: 16px;
 }
+
+.form-container {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.container-menu-sociais {
+
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.container-menu-sociais li {
+
+    display: inline-block;
+    list-style: none;
+    background-color: var(--color-medium-light-gray);
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px 0px 7px 0px;
+}
+
