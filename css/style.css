@@ -248,9 +248,9 @@ footer {
 .footer-by {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: flex-end;
 
     width: 100%;
@@ -259,8 +259,9 @@ footer {
 
 .footer-by p {
 
-    margin-top: 15%;
+    margin-top: 12%;
     color: var(--color-medium-light-gray);
+
 }
 
 
