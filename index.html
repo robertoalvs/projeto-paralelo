@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto site</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media-query.css" media="screen">
+    <link rel="stylesheet" href="css/media-query-portrait.css"  media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="css/media-query.css"  media="screen and (orientation: landscape)">
+
 </head>
 <body>
 
@@ -46,12 +48,12 @@
 
                                             <div class="usuario">
                                                 <label for="isuario">Nome: </label>
-                                                <input type="text" name="usuario" id="isuario">
+                                                <input type="text" name="usuario" id="isuario" required autocomplete="username">
                                             </div>
 
                                             <div class="senha">
                                                 <label for="isenha">Senha: </label>
-                                                <input type="password" name="senha" id="isenha">
+                                                <input type="password" name="senha" id="isenha" required autocomplete="current-password">
                                             </div>
 
                                             <div class="botoes">
@@ -66,8 +68,8 @@
                                         <menu>
 
                                             <ul>
-                                                <li> Menu</li>
-                                                <li> Menu</li>
+                                                <li class="list-list"> Menu</li>
+                                                <li class="list-list"> Menu</li>
                                                 <li> Menu</li>
                                                 <li> Menu</li>
                                             </ul>
@@ -79,8 +81,8 @@
                                     <div class="bottom">
                                         <span></span>
                                         <span></span>
-                                        <span></span>
-                                        <span></span>
+                                        <span class="none"></span>
+                                        <span class="none1"></span>
                                     </div>
                                 
                             </div>
@@ -158,7 +160,17 @@
 
                                     </div>
 
-                                    <div class="main-box4"></div>
+                                    <div class="main-box4">
+
+                                        <div class="main-icon-xbox">
+                                            <span><img src="./icones/segagenesis_gamepad_segagenesis_11847.png" alt=""></span>
+                                                <span><img src="./icones/sega_logo_icon_181397.png" alt=""></span>
+                                                <span><img src="./icones/nintendosnesgamepad_snesnintendo_jueg_11835.png" alt=""></span>
+                                                <span><img src="./icones/sonyplaystation_game_pillow_11856.png" alt=""></span>
+                                        </div>
+
+                                    </div>
+
                                 </section>
 
                             </main>

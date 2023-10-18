@@ -94,11 +94,6 @@ header > .titulo-logo img {
     height: 170px;
 }
 
-.logo-logo {
-
-    color: white;
-}
-
 
 header > .titulo-logo  h1  {
 
@@ -211,7 +206,6 @@ main.prncipal-boxes {
     margin: auto;
     background-image: url(../backgraound/BackgroundLogin.jpg);
     background-size: cover;
-    background-position: center center;
     margin-bottom: 10px;
     margin-top: 20px;
 }
@@ -225,7 +219,6 @@ main.prncipal-boxes {
     margin: auto;
     background-image: url(../backgraound/BackgroundLogin.jpg);
     background-size: cover;
-    background-position: center center;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
@@ -327,6 +320,31 @@ main.prncipal-boxes {
 }
 
 
+.main-box4 .main-icon-xbox {
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.main-icon-xbox > span img {
+
+    width: 60px;
+}
+
+
+.main-icon-xbox > span {
+
+    border-bottom: 1px solid var(--color-yellow);
+    width: 70%;
+    margin-bottom: 6px; 
+    margin-left: 20px;   
+}
+
+
 
 footer {
 
@@ -379,13 +397,10 @@ footer {
 
 .footer-by p {
 
-    margin-top: 12%;
+    margin-top: 7.8%;
     color: var(--color-medium-light-gray);
 
 }
-
-
-
 
 
 
