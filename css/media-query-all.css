@@ -8,6 +8,8 @@
 
         margin-right: 5%;
     }
+
+
     #container {
 
         width: 579px;
@@ -40,13 +42,106 @@
 @media screen and (min-width: 769px) and (max-width: 992px){
 
 
+    .header-redes-socias {
+
+        margin-right: 8.5%;
+    }
+
+    
+    .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
+
+        width: 750px;
+       
+    }
+
     #container {
 
-        width: 779px;
-        height: 200px;
+        width: 750px;
+    }
+
+
+    .bottom {
+
+        
+        position: relative;
+        width: 100%;
+    }
+    
+    .container-menu-sociais {
+    
+       margin-top: 7%;
+    }
+    
+    .container-menu-sociais .list-list {
+
+        margin-bottom: 0;
+    
+    }
+    
+    .none {
+    
+        position: absolute;
+        top: 0;
+        left: 43.7%;
         
     }
+    
+    .none1 {
+    
+        position: absolute;
+        top: 0;
+        right: 12.5%;
+    
+    }
+
+    footer {
+    
+        width: 750px;
+    }
+
+
+    .footer-by p {
+    
+        margin-top: 15.5%;
+    
+    }
+
 }
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    #container {
+
+        width: 100%;
+    }
+
+    main.prncipal-boxes {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4 {
+
+        width: 970px;
+        
+    }
+
+    footer {
+    
+        width: 970px;
+    }
+
+    .footer-by p {
+    
+        margin-top: 12%;
+    
+    }
+
+}
+
     
 
   
