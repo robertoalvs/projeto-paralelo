@@ -1,6 +1,52 @@
 @charset "UTF-8";
 
 
+
+
+
+@media screen and (min-width: 390px) and (max-width: 499px){
+
+   
+
+    #container {
+
+        width: 379px;
+
+    }
+
+    .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
+
+        width: 379px;
+        
+    }
+
+    footer {
+
+        width: 379px;
+    }
+
+    .button {
+
+        width: 70%;
+    }
+
+    .footer-button > p {
+
+        width: 80%;
+        text-align: center;
+    }
+    
+    .container-menu-sociais ul {
+
+        width: 350px;
+        margin-top: 25px;
+    
+    }
+
+}
+
+
+
 @media screen and (min-width: 600px) and (max-width: 768px){
 
 
