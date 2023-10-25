@@ -1,7 +1,116 @@
 @charset "UTF-8";
 
 
+/* Resolução de dispositivos PORTRAIT
 
+******  Celular  ******
+280px
+320px
+360px
+375px
+384px
+390px
+393px
+412px
+414px
+
+****** TABLET ******
+540px
+768px
+820px
+912px
+1024px
+
+******* Resolução de dispositivos LANDSCAPE ******
+
+
+******  Celular  ******
+
+480px
+568px
+640px
+658px
+667px
+736px
+740px
+768px
+812px
+844px
+851px
+896px
+914px
+915px
+
+
+****** TABLET ******
+720px
+768px
+1024px
+1180px
+1280px
+1366px
+1368px
+
+*/
+
+
+
+
+
+@media screen and (min-width: 360px){
+
+    
+    .header-redes-socias {
+
+        margin-right: -8.5%;
+    }
+    
+    /* ***** MENU ***** */
+
+    #container {
+
+        width: 100%;
+
+    }
+
+    .container-menu-sociais ul {
+
+        width: 330px;
+        margin-top: 20px;
+    
+    }
+
+    /* ***** FIM MENU ***** */
+
+    /* ***** SEC
+    .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
+
+        width: 359px;
+        
+    }
+
+        /* ***** FOOTER ***** */
+
+    .button {
+
+        width: 70%;
+    }
+
+    .footer-button > p {
+
+        width: 80%;
+        text-align: center;
+    }
+
+    /* ***** FIM FOOTER ***** */
+
+
+    .entrar-limpar {
+
+        width: 84px;
+    }
+    
+}
 
 
 @media screen and (min-width: 390px) and (max-width: 499px){
