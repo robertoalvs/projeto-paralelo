@@ -53,23 +53,18 @@
 
 */
 
+/* ***** CELULAR 320PX PORTRAIT ***** */
 
 @media screen and (max-width: 320px){
     
     header {
 
-        width: 339.5px;
+        width: 100%;
     }
-
-    #container {
-
-        max-width: 100%;
-
-     }
 
      .container-menu-sociais > menu ul {
 
-        width: 50px;
+        width: 50%;
         margin-top: 46px;
         margin-left: -7px;
     }
@@ -81,7 +76,7 @@
 
      .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
 
-        width: 359px;
+        max-width: 319px;
         
     }
 
@@ -109,11 +104,19 @@
         
     }
 }
+/* ***** FIM CELULAR 320PX PORTRAIT ***** */
 
 
+
+/* ***** CELULAR 360PX PORTRAIT ***** */
 @media screen and (max-width: 360px){
 
-    
+    header {
+
+        max-width: 100%;
+
+    }
+
     .header-redes-socias {
 
         margin-right: -8.5%;
@@ -130,17 +133,20 @@
 
     #container {
 
-        width: 100%;
-
+        max-width: 95%;
     }
 
-    .container-menu-sociais ul {
+    span.hamburguer {
 
-        width: 330px;
-        margin-top: 20px;
+        margin-bottom: -10px;
+    }
     
-    }
 
+    .container-menu-sociais > menu ul {
+
+        max-width: 52%;
+    }
+   
     /* ***** FIM MENU ***** */
 
 
@@ -148,7 +154,7 @@
 
     .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
 
-        width: 359px;
+        max-width: 358px;
         
     }
 
@@ -157,6 +163,11 @@
 
 
         /* ***** FOOTER ***** */
+
+        footer {
+
+            max-width: 345px;
+        }
 
     .button {
 
@@ -172,8 +183,52 @@
     /* ***** FIM FOOTER ***** */
     
 }
+/* ***** FIM CELULAR 360PX PORTRAIT ***** */
 
 
+/* ***** CELULAR 384PX PORTRAIT ***** */
+
+@media screen and (max-width: 384px){
+    
+    header {
+
+        width: 400x;
+    }
+
+    .container-menu-sociais > menu ul {
+
+        width: 60%;
+        margin-top: 26px;
+        margin-left: -5px;
+        
+    }
+
+    div#container {
+
+        width: 430px;
+        
+    }
+
+    .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
+
+        
+        width: 379px;
+    }
+
+    .footer-button > p {
+
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/* ***** FIM CELULAR 390PX PORTRAIT ***** */
 @media screen and (min-width: 390px) and (max-width: 499px){
 
    
@@ -220,9 +275,11 @@
     }
 
 }
+/* ***** FIM CELULAR 390PX PORTRAIT ***** */
 
 
 
+/* ***** CELULAR 600 a 768PX PORTRAIT ***** */
 @media screen and (min-width: 600px) and (max-width: 768px){
 
 
@@ -260,7 +317,10 @@
     }
 
 }
+/* ***** FIM CELULAR 600 a 768PX PORTRAIT ***** */
 
+
+/* ***** CELULAR 769 a 992PX PORTRAIT ***** */
 @media screen and (min-width: 769px) and (max-width: 992px){
 
 
@@ -329,9 +389,11 @@
     }
 
 }
+/* ***** FIM CELULAR 769 a 992PX PORTRAIT ***** */
 
 
 
+/* ***** CELULAR 993 a 1200PX PORTRAIT ***** */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
     #container {
@@ -363,6 +425,7 @@
     }
 
 }
+/* ***** FIM CELULAR 993 a 1200PX PORTRAIT ***** */
 
     
 
