@@ -64,17 +64,17 @@
 
      .container-menu-sociais > menu ul {
 
-        width: 50%;
+        width: 30%;
         margin-top: 46px;
         margin-left: -7px;
     }
 
-    form {
+    div#container {
 
-        margin-top: -7px;
+        max-width: 319px;
     }
 
-     .main-box1, .main-box2, .main-box3, .main-box3-1, .main-box4{
+     section{
 
         max-width: 319px;
         
@@ -100,7 +100,7 @@
 
     footer {
 
-        width: 479px;
+        width: 100%;
         
     }
 }
